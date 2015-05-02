@@ -1,0 +1,6 @@
+﻿<%@ ServiceHost 
+Language="C#" 
+Debug="false" 
+Service="ServiceLibrary.IPCheckerService"
+Factory="System.ServiceModel.Activation.WebServiceHostFactory"
+%>

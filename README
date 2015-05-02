@@ -1,0 +1,1 @@
+The IP Checker Service offers an easy way to validate a callers public IP address against a range of addresses stored in the config file of the service. If an address is within the range, it returns true, otherwise false. Basically a step to validate IPs before calling other code in an app.
