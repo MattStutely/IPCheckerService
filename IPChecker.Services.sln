@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPChecker.Services.Business", "IPChecker.Services.Business\IPChecker.Services.Business.csproj", "{9190B94E-8FC3-4202-A292-A89669FD3823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPChecker.Services.ServiceAPI", "IPChecker.Services.ServiceAPI\IPChecker.Services.ServiceAPI.csproj", "{5A5FD6D7-D87C-49DD-8CC7-0A777ED17080}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9190B94E-8FC3-4202-A292-A89669FD3823} = {9190B94E-8FC3-4202-A292-A89669FD3823}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DevCI|Any CPU = DevCI|Any CPU
+		PreProd|Any CPU = PreProd|Any CPU
+		QA|Any CPU = QA|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9190B94E-8FC3-4202-A292-A89669FD3823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9190B94E-8FC3-4202-A292-A89669FD3823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9190B94E-8FC3-4202-A292-A89669FD3823}.DevCI|Any CPU.ActiveCfg = DevCI|Any CPU
+		{9190B94E-8FC3-4202-A292-A89669FD3823}.DevCI|Any CPU.Build.0 = DevCI|Any CPU
+		{9190B94E-8FC3-4202-A292-A89669FD3823}.PreProd|Any CPU.ActiveCfg = PreProd|Any CPU
+		{9190B94E-8FC3-4202-A292-A89669FD3823}.PreProd|Any CPU.Build.0 = PreProd|Any CPU
+		{9190B94E-8FC3-4202-A292-A89669FD3823}.QA|Any CPU.ActiveCfg = QA|Any CPU
+		{9190B94E-8FC3-4202-A292-A89669FD3823}.QA|Any CPU.Build.0 = QA|Any CPU
+		{9190B94E-8FC3-4202-A292-A89669FD3823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9190B94E-8FC3-4202-A292-A89669FD3823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5FD6D7-D87C-49DD-8CC7-0A777ED17080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5FD6D7-D87C-49DD-8CC7-0A777ED17080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5FD6D7-D87C-49DD-8CC7-0A777ED17080}.DevCI|Any CPU.ActiveCfg = DevCI|Any CPU
+		{5A5FD6D7-D87C-49DD-8CC7-0A777ED17080}.DevCI|Any CPU.Build.0 = DevCI|Any CPU
+		{5A5FD6D7-D87C-49DD-8CC7-0A777ED17080}.PreProd|Any CPU.ActiveCfg = PreProd|Any CPU
+		{5A5FD6D7-D87C-49DD-8CC7-0A777ED17080}.PreProd|Any CPU.Build.0 = PreProd|Any CPU
+		{5A5FD6D7-D87C-49DD-8CC7-0A777ED17080}.QA|Any CPU.ActiveCfg = QA|Any CPU
+		{5A5FD6D7-D87C-49DD-8CC7-0A777ED17080}.QA|Any CPU.Build.0 = QA|Any CPU
+		{5A5FD6D7-D87C-49DD-8CC7-0A777ED17080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5FD6D7-D87C-49DD-8CC7-0A777ED17080}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
